@@ -1,0 +1,19 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container {
+    text-align: center;
+    padding: 2em;
+
+    .game {
+        display: flex;
+        justify-content: center;
+    }
+
+    .carta {
+        padding: 2em;
+    }
+}
